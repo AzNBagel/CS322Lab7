@@ -16,5 +16,9 @@ int main()
   p3 = malloc(1<<28); /* 256 MB */
   p4 = malloc(1<< 8); /* 256 B */
 
+  printf("P1 = %d \n", * p1);
+  printf("P2 = %d \n", * p2);
+  printf("P3 = %d \n", * p3);
+  printf("P4 = %d \n", * p4);
   /* Add print statements ... */
 }
